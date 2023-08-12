@@ -5,17 +5,26 @@ export const CartFeauContext = createContext();
 
 function FeauContext({ children }) {
   const [data, setData] = useState([]);
+  const [error, setError] = useState(null); // Error state added
 
   useEffect(() => {
-    const fetchApi = () => {
-      setData(getAPI());
-      console.log(data);
+    const fetchData = async () => {
+      try {
+        const apiData = await getAPI();
+        setData(apiData);
+      } catch (error) {
+        setError(error); // Set error state in case of API request failure
+      }
     };
 
-    fetchApi();
+    fetchData();
+    console.log(data)
   }, []);
+
   return (
-    <CartFeauContext.Provider value={data}>{children}</CartFeauContext.Provider>
+    <CartFeauContext.Provider value={{ data, error }}>
+      {children}
+    </CartFeauContext.Provider>
   );
 }
 

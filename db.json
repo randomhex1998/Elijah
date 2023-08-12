@@ -6,10 +6,26 @@
             "author": "Ryan",
             "title": "Want To Have A More Appealing Tattoo?",
             "summary": "I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment",
-            "tags": [
-                "Life",
-                "Work"
-            ]
+            "tag": "Life",
+            "read": "4 Minutes"
+        },
+        {
+            "id": 2,
+            "img": "https://images.unsplash.com/photo-1575305331117-0580726a1d34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDU4fHxjcmVhdGl2ZXxlbnwwfHx8fDE2NzQ1NjM1ODM&ixlib=rb-4.0.3&q=80&w=630",
+            "author": "Ryan",
+            "title": "Want To Have A More Appealing Tattoo?",
+            "summary": "I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment",
+            "tag": "Life",
+            "read": "18 Minutes"
+        },
+        {
+            "id": 3,
+            "img": "https://images.unsplash.com/photo-1616892026745-1ab3c69efe21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDMxfHxEZW1vY3JhdHN8ZW58MHx8fHwxNjc0NDk4MDUz&ixlib=rb-4.0.3&q=80&w=630",
+            "author": "Ryan",
+            "title": "Want To Have A More Appealing Tattoo?",
+            "summary": "I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment",
+            "tag": "Life",
+            "read": "16 Minutes"
         }
     ],
     "comments": [

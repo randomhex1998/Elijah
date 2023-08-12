@@ -1,14 +1,14 @@
 import React from "react";
 
-import Img1 from "../img/hero_element_1.webp";
-import Img2 from "../img/hero_element_2.webp";
-import Img3 from "../img/hero_element_3.webp";
+import Img1 from "../../img/hero_element_1.webp";
+import Img2 from "../../img/hero_element_2.webp";
+import Img3 from "../../img/hero_element_3.webp";
 
 function Hero() {
   return (
     <div className="flex justify-center items-center">
-      <div className="container flex flex-col py-10 md:py-20 lg:py-40">
-        <div className="flex flex-wrap font-[1000] text-[2rem] md:text-[4rem] xl:text-[5rem] leading-[5rem] md:leading-[8rem]">
+      <div className="container flex flex-col py-10 md:py-20 lg:py-20">
+        <div className="flex flex-wrap font-[1000] text-[2rem] md:text-[4rem] xl:text-[5rem] leading-[7rem] md:leading-[8rem]">
           In depth{" "}
           <img
             src={Img1}
@@ -37,7 +37,7 @@ function Hero() {
           <form className="w-full md:w-6/12 mt-4 md:mt-0 flex items-center justify-center md:justify-end">
             <input
               type="text"
-              className="px-4 py-2 w-full md:w-auto border rounded-full md:mr-4"
+              className="px-4 py-2 w-full md:w-auto border rounded-full md:mr-4 focus:outline-none focus:ring focus:border-blue-300"
               placeholder="Email Address"
             />
             <button className="px-6 py-2 rounded-full bg-black text-white">

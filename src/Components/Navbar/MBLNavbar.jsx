@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import logo from "../img/logo.webp";
+import logo from "../../img/logo.webp";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { CiMenuFries } from "react-icons/ci";
 

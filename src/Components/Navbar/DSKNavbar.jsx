@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../img/logo.webp";
+import logo from "../../img/logo.webp";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function DSKNavbar() {

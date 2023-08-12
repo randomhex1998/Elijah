@@ -1,0 +1,25 @@
+{
+    "featured": [
+        {
+            "id": 1,
+            "img": "https://images.unsplash.com/photo-1612294472104-0334c80111f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDU2fHx0YXR0b3xlbnwwfHx8fDE2NzQ1NjMxMTM&ixlib=rb-4.0.3&q=80&w=630",
+            "author": "Ryan",
+            "title": "Want To Have A More Appealing Tattoo?",
+            "summary": "I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment",
+            "tags": [
+                "Life",
+                "Work"
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

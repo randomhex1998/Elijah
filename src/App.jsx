@@ -4,6 +4,7 @@ import Hero from "./Components/Hero/Hero";
 import FeauContext from "./context/FeauContext";
 import Feautered from "./Components/Feautered/Feautered";
 import TopTags from "./Components/TopTags/TopTags";
+import MainWrapper from "./Components/MainWrapper/MainWrapper";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Feautered />
         <TopTags/>
+        <MainWrapper/>
       </div>
     </FeauContext>
   );

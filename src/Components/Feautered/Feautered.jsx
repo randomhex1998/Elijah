@@ -4,13 +4,17 @@ import { CartFeauContext } from "../../context/FeauContext";
 function Feautered() {
   const data = useContext(CartFeauContext);
 
+  // آرایه داده‌ها را با تنها سه مورد اول تغییر می‌دهیم
+  const displayedData = data.data.slice(0, 3);
+
   return (
     <div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {data.error ? (
           <div>Error loading data: {data.error.message}</div>
         ) : (
-          data.data.map((item) => (
+          // از displayedData.map برای نمایش سه مورد اول استفاده می‌کنیم
+          displayedData.map((item) => (
             <div
               className="h-[500px] overflow-hidden rounded-3xl relative"
               key={item.id}

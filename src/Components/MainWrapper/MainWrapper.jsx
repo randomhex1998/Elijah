@@ -14,7 +14,7 @@ function MainWrapper() {
   console.log(loadMore);
 
   return (
-    <div className="bg-[#eee] py-16">
+    <div className="bg-gradient-to-t to-white from-[#eee] py-16">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
         {slcData.map((item) => (
           <div

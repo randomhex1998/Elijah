@@ -5,6 +5,7 @@ import FeauContext from "./context/FeauContext";
 import Feautered from "./Components/Feautered/Feautered";
 import TopTags from "./Components/TopTags/TopTags";
 import MainWrapper from "./Components/MainWrapper/MainWrapper";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Feautered />
         <TopTags/>
         <MainWrapper/>
+        <Footer/>
       </div>
     </FeauContext>
   );

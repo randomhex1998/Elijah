@@ -2,7 +2,7 @@ import React from "react";
 
 function QuickSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mt-20 border-b border-[#d6d6d6] py-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 mt-20 border-b border-[#d6d6d6] pb-10">
       <div className="flex gap-20 ">
         <ul>
           <h3 className="font-extrabold text-2xl mb-4">Quick Links</h3>
@@ -47,11 +47,11 @@ function QuickSection() {
           </a>
         </ul>
       </div>
-      <div>
-        <h2 className="font-extrabold text-4xl">
+      <div className="mt-10 lg:mt-0">
+        <h2 className="font-extrabold text-2xl md:text-4xl">
           Join the newsletter and read the new post first.
         </h2>
-        <p className="mt-5 font-medium">
+        <p className="mt-5 font-medium text-[12px] md:text-[25px]">
           Get the email newsletter and unlock access to members-only contents
         </p>
       </div>

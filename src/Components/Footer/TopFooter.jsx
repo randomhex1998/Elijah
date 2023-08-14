@@ -3,7 +3,7 @@ import logo from "../../img/logo.webp";
 
 function TopFooter() {
   return (
-    <div className="flex justify-between items-center border-b border-[#d6d6d6] mb-5">
+    <div className="flex flex-wrap justify-center md:justify-between items-center border-b border-[#d6d6d6] mb-5">
       <div>
         <img src={logo} width="150px" />
       </div>
